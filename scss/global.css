@@ -137,6 +137,9 @@ body button {
   letter-spacing: 1.4px;
   text-transform: uppercase;
 }
+body .s1 {
+  margin-bottom: 145px;
+}
 body .s1 .div2 {
   position: relative;
   width: 100%;
@@ -173,4 +176,31 @@ body .s1 .div2 img {
   font-style: normal;
   font-weight: 400;
   line-height: 170%; /* 32.3px */
+}
+.div4 {
+  width: 327px;
+}
+
+h3 {
+  color: #141414;
+  font-family: Playfair Display;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 31.2px */
+}
+
+.div4 p {
+  color: #555;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165%; /* 29.7px */
+  letter-spacing: 0.36px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=global.css.map */
