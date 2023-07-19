@@ -1,0 +1,123 @@
+body {
+    background-color: #fff092;
+    header {
+        margin-bottom: 44.5px;
+        margin-left: 60px;
+        display: flex;
+        justify-content: space-between;
+        .div1 {
+            vertical-align: bottom;
+            display: flex;
+            justify-content: space-between;
+            h1 {
+                margin-top: 70px;
+                margin-right: 46px;
+                vertical-align: bottom;
+                color: $color1;
+                font-family: Playfair Display;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 125%; /* 35px */
+            }
+            h6 {
+                margin-top: 75px;
+                vertical-align: bottom;
+                color: $color1;
+                font-family: Manrope;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 125%; /* 22.5px */
+                letter-spacing: -0.18px;
+            }
+        }
+    }
+    header img {
+        margin-top: 40px;
+        vertical-align: bottom;
+        margin-right: 12px;
+        vertical-align: top;
+        height: 80px;
+        width: 70px;
+    }
+    ul {
+        margin-top: 75px;
+        display: flex;
+    }
+    header a {
+        margin-right: 32px;
+        color: #555;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%; /* 22.5px */
+    }
+
+    header i {
+        margin-top: 75px;
+    }
+
+    button {
+        margin-top: 50px;
+        margin-right: 10px;
+        margin-left: 30px;
+        width: 199.5px;
+        background-color: $color7;
+        height: 50px;
+        color: #FFF;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 125%; /* 17.5px */
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+    }
+.s1 {
+    .div2 {
+        position: relative;
+        width: 100%;
+        height: 925px;
+        flex-shrink: 0;
+        background-color: $color4;
+        img {
+            position: absolute;
+            left: 52.2%;
+            width: 700px;
+            height: 925px;
+    
+        }
+    }
+}
+
+}
+.div3 {
+    width: 510px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    h2 {
+        color: white;
+        font-family: Playfair Display;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 115%; /* 80.5px */
+        letter-spacing: -0.7px;
+    }
+    p {
+        color: #555;
+        font-family: Manrope;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%; /* 32.3px */
+    }
+    .logo {
+    }
+
+}
+

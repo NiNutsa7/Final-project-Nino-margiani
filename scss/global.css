@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff092;
+}
+body header {
+  margin-bottom: 44.5px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+body header .div1 {
+  vertical-align: bottom;
+  display: flex;
+  justify-content: space-between;
+}
+body header .div1 h1 {
+  margin-top: 70px;
+  margin-right: 46px;
+  vertical-align: bottom;
+  color: #141414;
+  font-family: Playfair Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 35px */
+}
+body header .div1 h6 {
+  margin-top: 75px;
+  vertical-align: bottom;
+  color: #141414;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 22.5px */
+  letter-spacing: -0.18px;
+}
+body header img {
+  margin-top: 40px;
+  vertical-align: bottom;
+  margin-right: 12px;
+  vertical-align: top;
+  height: 80px;
+  width: 70px;
+}
+body ul {
+  margin-top: 75px;
+  display: flex;
+}
+body header a {
+  margin-right: 32px;
+  color: #555;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 22.5px */
+}
+body header i {
+  margin-top: 75px;
+}
+body button {
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 30px;
+  width: 199.5px;
+  background-color: blue;
+  height: 50px;
+  color: #FFF;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 17.5px */
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+body .s1 .div2 {
+  position: relative;
+  width: 100%;
+  height: 925px;
+  flex-shrink: 0;
+  background-color: #3899b1;
+}
+body .s1 .div2 img {
+  position: absolute;
+  left: 52.2%;
+  width: 700px;
+  height: 925px;
+}
+
+.div3 {
+  width: 510px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.div3 h2 {
+  color: white;
+  font-family: Playfair Display;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%; /* 80.5px */
+  letter-spacing: -0.7px;
+}
+.div3 p {
+  color: #555;
+  font-family: Manrope;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 32.3px */
+}/*# sourceMappingURL=global.css.map */
