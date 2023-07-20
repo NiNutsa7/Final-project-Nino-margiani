@@ -94,7 +94,6 @@ body {
     }
 }
 
-}
 .div3 {
     width: 510px;
     position: absolute;
@@ -118,14 +117,11 @@ body {
         line-height: 170%; /* 32.3px */
     }
 
-.s2 {
-    
-}
 }
 
-.div4 {
-    width: 327px;
 }
+
+
 
 h3 {
     color: #141414;
@@ -149,4 +145,25 @@ h3 {
 .container {
     display: flex;
     justify-content: space-around;
+    .div4 {
+        width: 327px;
+        h3 {
+            color: #141414;
+            font-family: Playfair Display;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%; /* 31.2px */
+        }
+        
+        .div4 p {
+            color: #555;
+            font-family: Manrope;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 165%; /* 29.7px */
+            letter-spacing: 0.36px;
+        }
+    }
 }

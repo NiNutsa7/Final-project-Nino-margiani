@@ -153,14 +153,13 @@ body .s1 .div2 img {
   width: 700px;
   height: 925px;
 }
-
-.div3 {
+body .div3 {
   width: 510px;
   position: absolute;
   top: 15%;
   left: 15%;
 }
-.div3 h2 {
+body .div3 h2 {
   color: white;
   font-family: Playfair Display;
   font-size: 70px;
@@ -169,16 +168,13 @@ body .s1 .div2 img {
   line-height: 115%; /* 80.5px */
   letter-spacing: -0.7px;
 }
-.div3 p {
+body .div3 p {
   color: #555;
   font-family: Manrope;
   font-size: 19px;
   font-style: normal;
   font-weight: 400;
   line-height: 170%; /* 32.3px */
-}
-.div4 {
-  width: 327px;
 }
 
 h3 {
@@ -203,4 +199,24 @@ h3 {
 .container {
   display: flex;
   justify-content: space-around;
+}
+.container .div4 {
+  width: 327px;
+}
+.container .div4 h3 {
+  color: #141414;
+  font-family: Playfair Display;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 31.2px */
+}
+.container .div4 .div4 p {
+  color: #555;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165%; /* 29.7px */
+  letter-spacing: 0.36px;
 }/*# sourceMappingURL=global.css.map */
