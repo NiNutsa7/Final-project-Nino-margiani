@@ -1,5 +1,5 @@
 body {
-    background-color: #fff092;
+    background-color: $color3;
     header {
         margin-bottom: 44.5px;
         margin-left: 60px;
@@ -47,7 +47,7 @@ body {
     }
     header a {
         margin-right: 32px;
-        color: #555;
+        color: $color2;
         font-family: Manrope;
         font-size: 18px;
         font-style: normal;
@@ -66,7 +66,7 @@ body {
         width: 199.5px;
         background-color: $color7;
         height: 50px;
-        color: #FFF;
+        color: $color6;
         text-align: center;
         font-family: Manrope;
         font-size: 14px;
@@ -109,7 +109,7 @@ body {
         letter-spacing: -0.7px;
     }
     p {
-        color: #555;
+        color: $color2;
         font-family: Manrope;
         font-size: 19px;
         font-style: normal;
@@ -124,7 +124,7 @@ body {
 
 
 h3 {
-    color: #141414;
+    color: $color1;
     font-family: Playfair Display;
     font-size: 26px;
     font-style: normal;
@@ -133,7 +133,7 @@ h3 {
 }
 
 .div4 p {
-    color: #555;
+    color: $color2;
     font-family: Manrope;
     font-size: 18px;
     font-style: normal;
@@ -148,7 +148,7 @@ h3 {
     .div4 {
         width: 327px;
         h3 {
-            color: #141414;
+            color: $color1;
             font-family: Playfair Display;
             font-size: 26px;
             font-style: normal;
@@ -157,7 +157,7 @@ h3 {
         }
         
         .div4 p {
-            color: #555;
+            color: $color2;
             font-family: Manrope;
             font-size: 18px;
             font-style: normal;
@@ -165,5 +165,43 @@ h3 {
             line-height: 165%; /* 29.7px */
             letter-spacing: 0.36px;
         }
+    }
+    
+}
+
+.div5 {
+    position: relative;
+    background-color: $color4;
+    height: 400px;
+    width: 100%;
+}
+.text {
+    width: 650px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    p {
+        color: $color6;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 154.5%; /* 23.175px */
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+    h1 {
+        color: $color6;
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 66px */
+        letter-spacing: -0.55px;
+    }
+    button {
+        margin-left: 230px;
     }
 }
