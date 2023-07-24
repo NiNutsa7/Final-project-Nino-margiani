@@ -288,4 +288,64 @@ h3 {
 
 .div5 button {
   margin-left: 225px;
+  margin-bottom: 400px;
+}
+
+.s4 h6 {
+  color: #5C8692;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 154.5%; /* 23.175px */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.s4 h1 {
+  margin-bottom: 45px;
+  color: #141414;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 58.5px */
+  letter-spacing: -0.45px;
+}
+
+.div6 {
+  margin-left: 600px;
+  width: 690px;
+}
+.div6 h5 {
+  margin-bottom: 8px;
+  color: #141414;
+  font-family: Playfair Display;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 26.4px */
+}
+
+.div7 {
+  margin-bottom: 36px;
+  width: 400px;
+}
+.div7 p {
+  color: #555;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 31.5px */
+}
+
+.line {
+  margin-bottom: 36px;
+}
+
+.s4 {
+  margin-bottom: 130px;
 }/*# sourceMappingURL=global.css.map */
