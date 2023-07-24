@@ -182,6 +182,39 @@ h3 {
 }
 
 .s3 img {
+    position: absolute;
     width: 100%;
     height: 495px;
+}
+
+.div5 {
+    width: 649px;
+    position: relative;
+    margin-left: 450px;
+}
+
+.div5 p {
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.div5 h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 66px */
+    letter-spacing: -0.55px;
+}
+
+.div5 button {
+    margin-left: 230px;
 }
