@@ -61,6 +61,9 @@ a {
           box-sizing: border-box;
 }
 
+body {
+  color: white;
+}
 body header {
   margin-bottom: 44.5px;
   margin-left: 60px;
@@ -103,12 +106,12 @@ body header .div1 h6 {
   letter-spacing: -0.18px;
 }
 body header img {
-  margin-top: 40px;
+  margin-top: 70px;
   vertical-align: bottom;
   margin-right: 12px;
   vertical-align: top;
-  height: 80px;
-  width: 70px;
+  height: 33px;
+  width: 33px;
 }
 body ul {
   margin-top: 75px;
@@ -126,6 +129,7 @@ body header a {
   line-height: 125%; /* 22.5px */
 }
 body header i {
+  margin-right: 10px;
   margin-top: 75px;
 }
 body button {
@@ -235,40 +239,18 @@ h3 {
   letter-spacing: 0.36px;
 }
 
-.div5 {
-  position: relative;
-  background-color: #3899b1;
-  height: 400px;
-  width: 100%;
+.b1 {
+  color: #141414;
+  border: 2px solid #5C8692;
+  background-color: #EBF3F5;
 }
 
-.text {
-  width: 650px;
-  position: absolute;
-  top: 10%;
-  left: 25%;
+.img2 {
+  width: 550px;
+  height: 545px;
 }
-.text p {
-  color: #FFF;
-  text-align: center;
-  font-family: Manrope;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 154.5%; /* 23.175px */
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
-.text h1 {
-  color: #FFF;
-  text-align: center;
-  font-family: Playfair Display;
-  font-size: 55px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%; /* 66px */
-  letter-spacing: -0.55px;
-}
-.text button {
-  margin-left: 230px;
+
+.s3 img {
+  width: 100%;
+  height: 495px;
 }/*# sourceMappingURL=global.css.map */
