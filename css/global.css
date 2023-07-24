@@ -259,7 +259,8 @@ h3 {
 .div5 {
   width: 649px;
   position: relative;
-  margin-left: 450px;
+  top: 120px;
+  left: 425px;
 }
 
 .div5 p {
@@ -286,5 +287,5 @@ h3 {
 }
 
 .div5 button {
-  margin-left: 230px;
+  margin-left: 225px;
 }/*# sourceMappingURL=global.css.map */
