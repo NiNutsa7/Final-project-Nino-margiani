@@ -83,6 +83,14 @@ body header .div1 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+body header .div1 img {
+  margin-top: 70px;
+  vertical-align: bottom;
+  margin-right: 12px;
+  vertical-align: top;
+  height: 40px;
+  width: 33px;
+}
 body header .div1 h1 {
   margin-top: 70px;
   margin-right: 46px;
@@ -94,32 +102,13 @@ body header .div1 h1 {
   font-weight: 700;
   line-height: 125%; /* 35px */
 }
-body header .div1 h6 {
-  margin-top: 75px;
-  vertical-align: bottom;
-  color: #141414;
-  font-family: Manrope;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 125%; /* 22.5px */
-  letter-spacing: -0.18px;
-}
-body header img {
-  margin-top: 70px;
-  vertical-align: bottom;
-  margin-right: 12px;
-  vertical-align: top;
-  height: 40px;
-  width: 33px;
-}
-body ul {
+body header ul {
   margin-top: 75px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-body header a {
+body header ul a {
   margin-right: 32px;
   color: #555;
   font-family: Manrope;
@@ -131,23 +120,6 @@ body header a {
 body header i {
   margin-right: 10px;
   margin-top: 75px;
-}
-body button {
-  margin-top: 50px;
-  margin-right: 10px;
-  margin-left: 30px;
-  width: 199.5px;
-  background-color: #5C8692;
-  height: 50px;
-  color: #FFF;
-  text-align: center;
-  font-family: Manrope;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 125%; /* 17.5px */
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
 }
 body .s1 {
   margin-bottom: 145px;
@@ -166,13 +138,13 @@ body .s1 .div2 img {
   width: 700px;
   height: 925px;
 }
-body .div3 {
+body .s1 .div2 .div3 {
   width: 510px;
   position: absolute;
   top: 15%;
   left: 15%;
 }
-body .div3 h2 {
+body .s1 .div2 .div3 h2 {
   color: #141414;
   font-family: Playfair Display;
   font-size: 70px;
@@ -181,7 +153,7 @@ body .div3 h2 {
   line-height: 115%; /* 80.5px */
   letter-spacing: -0.7px;
 }
-body .div3 p {
+body .s1 .div2 .div3 p {
   color: #555;
   font-family: Manrope;
   font-size: 19px;
@@ -189,37 +161,22 @@ body .div3 p {
   font-weight: 400;
   line-height: 170%; /* 32.3px */
 }
-
-h3 {
-  color: #141414;
-  font-family: Playfair Display;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%; /* 31.2px */
-}
-
-.div4 p {
-  color: #555;
-  font-family: Manrope;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 165%; /* 29.7px */
-  letter-spacing: 0.36px;
-}
-
-.container {
+body .s2 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-.container .div4 {
+body .s2 .container .div4 {
+  margin-bottom: 150px;
   width: 327px;
 }
-.container .div4 h3 {
+body .s2 .container .div4 .img4 {
+  height: 225px;
+  width: 400px;
+}
+body .s2 .container .div4 h3 {
   margin-top: 20px;
   color: #141414;
   font-family: Playfair Display;
@@ -228,8 +185,7 @@ h3 {
   font-weight: 700;
   line-height: 120%; /* 31.2px */
 }
-.container .div4 .div4 p {
-  margin-top: 11px;
+body .s2 .container .div4 p {
   color: #555;
   font-family: Manrope;
   font-size: 18px;
@@ -238,114 +194,21 @@ h3 {
   line-height: 165%; /* 29.7px */
   letter-spacing: 0.36px;
 }
-
-.b1 {
+body .s2 .container .div4 button {
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 30px;
+  width: 199.5px;
+  background-color: #EBF3F5;
+  height: 50px;
   color: #141414;
   border: 2px solid #5C8692;
-  background-color: #EBF3F5;
-}
-
-.img2 {
-  width: 550px;
-  height: 545px;
-}
-
-.s3 img {
-  position: absolute;
-  width: 100%;
-  height: 495px;
-}
-
-.div5 {
-  width: 649px;
-  position: relative;
-  top: 120px;
-  left: 425px;
-}
-
-.div5 p {
-  color: #FFF;
   text-align: center;
   font-family: Manrope;
-  font-size: 15px;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 154.5%; /* 23.175px */
-  letter-spacing: 1.5px;
+  font-weight: 700;
+  line-height: 125%; /* 17.5px */
+  letter-spacing: 1.4px;
   text-transform: uppercase;
-}
-
-.div5 h1 {
-  color: #FFF;
-  text-align: center;
-  font-family: Playfair Display;
-  font-size: 55px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%; /* 66px */
-  letter-spacing: -0.55px;
-}
-
-.div5 button {
-  margin-left: 225px;
-  margin-bottom: 400px;
-}
-
-.s4 h6 {
-  color: #5C8692;
-  text-align: center;
-  font-family: Manrope;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 154.5%; /* 23.175px */
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
-
-.s4 h1 {
-  margin-bottom: 45px;
-  color: #141414;
-  text-align: center;
-  font-family: Playfair Display;
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%; /* 58.5px */
-  letter-spacing: -0.45px;
-}
-
-.div6 {
-  margin-left: 600px;
-  width: 690px;
-}
-.div6 h5 {
-  margin-bottom: 8px;
-  color: #141414;
-  font-family: Playfair Display;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%; /* 26.4px */
-}
-
-.div7 {
-  margin-bottom: 36px;
-  width: 400px;
-}
-.div7 p {
-  color: #555;
-  font-family: Manrope;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 175%; /* 31.5px */
-}
-
-.line {
-  margin-bottom: 36px;
-}
-
-.s4 {
-  margin-bottom: 130px;
 }/*# sourceMappingURL=global.css.map */
