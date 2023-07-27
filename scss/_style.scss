@@ -205,12 +205,13 @@ body {
     .s5 {
         .div10 {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
+            align-items: start;
             width: 100%;
             height: 700px;
             background-color: #EBF3F5;
             .div11 {
-                width: 700px;
+                width: 600px;
                 h1 {
                     margin-bottom: 30px;
                     color: #141414;
@@ -224,18 +225,25 @@ body {
                 p {
                     color: #141414;
                     font-family: "BPG Nino Mtavruli", sans-serif;
-                    font-size: 30px;
+                    font-size: 25px;
                     font-style: normal;
                     font-weight: 700;
-                    line-height: 115%; /* 80.5px */
+                    line-height: 165%; /* 80.5px */
                     letter-spacing: -0.7px; 
+                }
+            }
+            .div12 {
+                img {
+                    width: 800px;
+                    margin-top: 20px;
                 }
             }
         }
     }
     footer {
+        margin-top: 150px;
         width: 100%;
         height: 560px;
-        background-color: #1E2C30;
+        background-color: #EBF3F5;
     }
 }
