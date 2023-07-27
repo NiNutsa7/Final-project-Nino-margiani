@@ -35,7 +35,7 @@ body {
             a {
                 margin-right: 32px;
                 color: $color2;
-                font-family: Manrope;
+                font-family: "BPG Nino Mtavruli", sans-serif;
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 400;
@@ -69,7 +69,7 @@ body {
                 left: 15%;
                 h2 {
                     color: #141414;
-                    font-family: Playfair Display;
+                    font-family: "BPG Nino Mtavruli", sans-serif;
                     font-size: 70px;
                     font-style: normal;
                     font-weight: 700;
@@ -78,7 +78,7 @@ body {
                 }
                 p {
                     color: #555;
-                    font-family: Manrope;
+                    font-family: "BPG Arial", sans-serif;
                     font-size: 19px;
                     font-style: normal;
                     font-weight: 400;
@@ -152,7 +152,7 @@ body {
                 position: relative;
                 h1 {
                     color: #141414;
-                    font-family: Playfair Display;
+                    font-family: 'Playfair Display', serif;
                     font-size: 45px;
                     font-style: normal;
                     font-weight: 700;
@@ -161,11 +161,66 @@ body {
                 }
                 p {
                     color: #555;
-                    font-family: Manrope;
+                    font-family: "BPG Nino Mtavruli", sans-serif;
                     font-size: 18px;
                     font-style: normal;
                     font-weight: 400;
                     line-height: 165%; /* 29.7px */
+                }
+            }
+        }
+    }
+    .s4 {
+        .div8 {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .div9 {
+                margin-bottom: 100px;
+                width: 384px;
+                img {
+                    margin-bottom: 10px;
+                    width: 384px;
+                    height: 216px;
+                }
+                h3 {
+                    margin-bottom: 15px;
+                    font-size: 24px;
+                    font-family: "BPG Arial", sans-serif;
+                    color: #50b1c9;
+                    font-weight: 700;
+                }
+                p {
+                    color: #5C8692;
+                    text-align: center;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%; /* 28.8px */
+                }
+            }
+        }
+    }
+    .s5 {
+        .div10 {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 700px;
+            background-color: #EBF3F5;
+            img {
+                width: 800px;
+                height: 400px;
+            }
+            .div11 {
+                p {
+                    color: #141414;
+                    font-family: "BPG Nino Mtavruli", sans-serif;
+                    font-size: 70px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 115%; /* 80.5px */
+                    letter-spacing: -0.7px; 
                 }
             }
         }
