@@ -95,8 +95,8 @@ body header .div1 h1 {
   margin-top: 70px;
   margin-right: 46px;
   vertical-align: bottom;
-  color: #141414;
-  font-family: Playfair Display;
+  color: #555;
+  font-family: "Playfair Display", serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -179,13 +179,14 @@ body .s2 .container .div4 .img4 {
 body .s2 .container .div4 h3 {
   margin-top: 20px;
   color: #141414;
-  font-family: Playfair Display;
+  font-family: "Edu SA Beginner", cursive;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 31.2px */
 }
 body .s2 .container .div4 p {
+  margin-bottom: 20px;
   color: #555;
   font-family: Manrope;
   font-size: 18px;
@@ -194,8 +195,7 @@ body .s2 .container .div4 p {
   line-height: 165%; /* 29.7px */
   letter-spacing: 0.36px;
 }
-body .s2 .container .div4 button {
-  margin-top: 50px;
+body .s2 .container .div4 a {
   width: 199.5px;
   background-color: #EBF3F5;
   height: 50px;
@@ -203,7 +203,7 @@ body .s2 .container .div4 button {
   border: 2px solid #5C8692;
   text-align: center;
   font-family: Manrope;
-  font-size: 14px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: 125%; /* 17.5px */
@@ -231,6 +231,7 @@ body .s3 .div5 .div6 {
   position: relative;
 }
 body .s3 .div5 .div6 h1 {
+  margin-bottom: 50px;
   color: #141414;
   font-family: "Playfair Display", serif;
   font-size: 45px;
@@ -274,8 +275,9 @@ body .s4 .div8 .div9 h3 {
   font-weight: 700;
 }
 body .s4 .div8 .div9 p {
-  color: #5C8692;
+  color: #50b1c9;
   text-align: center;
+  font-family: "BPG Arial", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -300,7 +302,7 @@ body .s5 .div10 .div11 {
 body .s5 .div10 .div11 h1 {
   margin-bottom: 30px;
   color: #141414;
-  font-family: Playfair Display;
+  font-family: "Playfair Display", serif;
   font-size: 70px;
   font-style: normal;
   font-weight: 700;
@@ -320,9 +322,110 @@ body .s5 .div10 .div12 img {
   width: 800px;
   margin-top: 20px;
 }
+body .s7 {
+  background-color: #EBF3F5;
+  margin-bottom: 50px;
+}
+body .s7 .div16 {
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .s7 .div16 img {
+  margin-left: 10px;
+  width: 670px;
+  height: 398px;
+}
+body .s7 .div16 .div17 {
+  width: 700px;
+}
+body .s7 .div16 .div17 h1 {
+  color: #5C8692;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 31.2px */
+}
+body .s7 .div16 .div17 p {
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+  color: #5C8692;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165%; /* 29.7px */
+}
+body .s7 a {
+  margin-left: 20px;
+  width: 199.5px;
+  background-color: white;
+  height: 50px;
+  color: #141414;
+  border: 2px solid #5C8692;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 17.5px */
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
 body footer {
   margin-top: 150px;
   width: 100%;
   height: 560px;
   background-color: #EBF3F5;
+}
+body footer .div14 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+body footer .div14 svg {
+  margin-right: 50px;
+  margin-top: 50px;
+}
+body footer .div14 h1 {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 50px */
+  letter-spacing: 0.8px;
+  margin-top: 50px;
+}
+body footer .div15 {
+  margin-left: 100px;
+}
+body footer .div15 h3 {
+  color: black;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 30.8px */
+}
+body footer .div15 a {
+  margin-right: 32px;
+  color: #555;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185%; /* 22.5px */
 }/*# sourceMappingURL=global.css.map */
