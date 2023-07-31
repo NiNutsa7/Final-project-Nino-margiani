@@ -205,6 +205,7 @@ body {
         }
     }
     .s5 {
+        margin-bottom: 150px;
         .div10 {
             display: flex;
             justify-content: space-around;
@@ -238,6 +239,40 @@ body {
                 img {
                     width: 800px;
                     margin-top: 20px;
+                    border-radius: 1%;
+                }
+            }
+        }
+    }
+    .s6 {
+        background-color: $color3;
+        .div18 {
+            display: flex;
+            justify-content: space-around;
+            img {
+                width: 636px;
+                height: 382px;
+                border-radius: 1%;
+            }
+            .div19 {
+                width: 500px;
+                p {
+                    color: $color2;
+                    font-family: $font2;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 165%; /* 29.7px */
+                }
+                h1 {
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                    color: $color4;
+                    font-family: $font5;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 120%; /* 31.2px */
                 }
             }
         }
@@ -299,26 +334,25 @@ body {
         height: 560px;
         background-color: $color3;
         .div13 {
-            
-        }
-        .div14 {
-            display: flex;
-            justify-content: baseline;
-            margin-bottom: 50px;
-            margin-left: 100px;
-            svg {
-                margin-right: 50px;
-                margin-top: 50px;
-            }
-            h1 {
-                color: $color7;
-                font-family: $font1;
-                font-size: 40px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 125%; /* 50px */
-                letter-spacing: 0.8px;
-                margin-top: 50px;
+            .div14 {
+                display: flex;
+                justify-content: baseline;
+                margin-bottom: 50px;
+                margin-left: 100px;
+                svg {
+                    margin-right: 50px;
+                    margin-top: 50px;
+                }
+                h1 {
+                    color: $color7;
+                    font-family: $font1;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 125%; /* 50px */
+                    letter-spacing: 0.8px;
+                    margin-top: 50px;
+                }
             }
         }
         .div15 {

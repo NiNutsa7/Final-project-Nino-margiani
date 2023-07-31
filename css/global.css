@@ -283,6 +283,9 @@ body .s4 .div8 .div9 p {
   font-weight: 400;
   line-height: 160%; /* 28.8px */
 }
+body .s5 {
+  margin-bottom: 150px;
+}
 body .s5 .div10 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -321,6 +324,43 @@ body .s5 .div10 .div11 p {
 body .s5 .div10 .div12 img {
   width: 800px;
   margin-top: 20px;
+  border-radius: 1%;
+}
+body .s6 {
+  background-color: #EBF3F5;
+}
+body .s6 .div18 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+body .s6 .div18 img {
+  width: 636px;
+  height: 382px;
+  border-radius: 1%;
+}
+body .s6 .div18 .div19 {
+  width: 500px;
+}
+body .s6 .div18 .div19 p {
+  color: #555;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165%; /* 29.7px */
+}
+body .s6 .div18 .div19 h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #141414;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 31.2px */
 }
 body .s7 {
   background-color: #EBF3F5;
@@ -385,7 +425,7 @@ body footer {
   height: 560px;
   background-color: #EBF3F5;
 }
-body footer .div14 {
+body footer .div13 .div14 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -395,11 +435,11 @@ body footer .div14 {
   margin-bottom: 50px;
   margin-left: 100px;
 }
-body footer .div14 svg {
+body footer .div13 .div14 svg {
   margin-right: 50px;
   margin-top: 50px;
 }
-body footer .div14 h1 {
+body footer .div13 .div14 h1 {
   color: black;
   font-family: "Playfair Display", serif;
   font-size: 40px;
