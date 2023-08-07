@@ -61,20 +61,46 @@ a {
           box-sizing: border-box;
 }
 
-body {
-  color: white;
+html {
+  scroll-behavior: smooth;
 }
+
 body header {
-  margin-bottom: 44.5px;
-  margin-left: 60px;
+  padding: 30px 0;
+  background-color: white;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+body header .container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-body header .div1 {
+@media (max-width: 998px) {
+  body header .container {
+    width: 90%;
+  }
+}
+@media (max-width: 696px) {
+  body header .container {
+    display: block;
+  }
+}
+body header .container .div1 {
   vertical-align: bottom;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,16 +109,26 @@ body header .div1 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-body header .div1 img {
-  margin-top: 70px;
+@media (max-width: 696px) {
+  body header .container .div1 {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+body header .container .div1 img {
   vertical-align: bottom;
   margin-right: 12px;
   vertical-align: top;
   height: 40px;
   width: 33px;
 }
-body header .div1 h1 {
-  margin-top: 70px;
+@media (max-width: 973px) {
+  body header .container .div1 img {
+    margin-bottom: 20px;
+  }
+}
+body header .container .div1 h1 {
   margin-right: 46px;
   vertical-align: bottom;
   color: #555;
@@ -102,13 +138,17 @@ body header .div1 h1 {
   font-weight: 700;
   line-height: 125%; /* 35px */
 }
-body header ul {
-  margin-top: 75px;
+@media (max-width: 630px) {
+  body header .container .div1 h1 {
+    font-size: 25px;
+  }
+}
+body header .container ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-body header ul a {
+body header .container ul a {
   margin-right: 32px;
   color: #555;
   font-family: "BPG Nino Mtavruli", sans-serif;
@@ -117,34 +157,89 @@ body header ul a {
   font-weight: 400;
   line-height: 125%; /* 22.5px */
 }
-body header i {
-  margin-right: 10px;
-  margin-top: 75px;
+@media (max-width: 696px) {
+  body header .container ul a {
+    font-size: 15px;
+  }
+}
+@media (max-width: 610px) {
+  body header .container ul a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 525px) {
+  body header .container ul a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 465px) {
+  body header .container ul a {
+    font-size: 8px;
+  }
 }
 body .s1 {
+  margin-top: 120px;
+  background-color: #EBF3F5;
   margin-bottom: 145px;
 }
-body .s1 .div2 {
-  position: relative;
+body .s1 .container {
+  max-width: 1400px;
+  margin: 0 auto;
   width: 100%;
-  height: 925px;
+  padding: 100px 0;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  background-color: #EBF3F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-body .s1 .div2 img {
-  position: absolute;
-  left: 52.2%;
+@media (max-width: 1210px) {
+  body .s1 .container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 630px) {
+  body .s1 .container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+body .s1 .container img {
   width: 700px;
   height: 925px;
+  padding: 0 20px;
 }
-body .s1 .div2 .div3 {
+@media (max-width: 700px) {
+  body .s1 .container img {
+    width: 80%;
+    height: 80%;
+  }
+}
+@media (max-width: 630px) {
+  body .s1 .container img {
+    width: 60%;
+    height: 60%;
+  }
+}
+body .s1 .container .div3 {
   width: 510px;
-  position: absolute;
-  top: 15%;
-  left: 15%;
+  padding: 0 10px;
 }
-body .s1 .div2 .div3 h2 {
+@media (max-width: 630px) {
+  body .s1 .container .div3 {
+    width: 60%;
+  }
+}
+body .s1 .container .div3 h2 {
   color: #141414;
   font-family: "BPG Nino Mtavruli", sans-serif;
   font-size: 70px;
@@ -153,7 +248,23 @@ body .s1 .div2 .div3 h2 {
   line-height: 115%; /* 80.5px */
   letter-spacing: -0.7px;
 }
-body .s1 .div2 .div3 p {
+@media (max-width: 1210px) {
+  body .s1 .container .div3 h2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 50px;
+  }
+}
+@media (max-width: 630px) {
+  body .s1 .container .div3 h2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 30px;
+  }
+}
+body .s1 .container .div3 p {
   color: #555;
   font-family: "BPG Arial", sans-serif;
   font-size: 19px;
@@ -161,18 +272,58 @@ body .s1 .div2 .div3 p {
   font-weight: 400;
   line-height: 170%; /* 32.3px */
 }
+@media (max-width: 1210px) {
+  body .s1 .container .div3 p {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 15px;
+  }
+}
+@media (max-width: 630px) {
+  body .s1 .container .div3 p {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 10px;
+  }
+}
+body .s2 {
+  padding: 100px 0;
+}
 body .s2 .container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 50px;
+}
+@media (max-width: 1300px) {
+  body .s2 .container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 850px) {
+  body .s2 .container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 body .s2 .container .div4 {
-  margin-bottom: 150px;
-  width: 327px;
+  width: 400px;
 }
 body .s2 .container .div4 .img4 {
+  padding: 0 10px;
   border-radius: 1%;
   height: 225px;
   width: 400px;
@@ -214,10 +365,11 @@ body .s2 .container .div4 a {
 body .s3 {
   margin-bottom: 145px;
   width: 100%;
-  height: 700px;
+  padding: 100px 0;
   background-color: #EBF3F5;
+  gap: 10px;
 }
-body .s3 .div5 {
+body .s3 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,13 +378,34 @@ body .s3 .div5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-body .s3 .div5 .div6 {
+@media (max-width: 700px) {
+  body .s3 .container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+body .s3 .container .div6 {
   width: 500px;
   position: relative;
+  padding: 0 10px;
 }
-body .s3 .div5 .div6 h1 {
-  margin-bottom: 50px;
+@media (max-width: 1400px) {
+  body .s3 .container .div6 {
+    width: 850px;
+  }
+}
+@media (max-width: 700px) {
+  body .s3 .container .div6 {
+    width: 70%;
+  }
+}
+body .s3 .container .div6 h1 {
+  margin-bottom: 30px;
   color: #141414;
   font-family: "Playfair Display", serif;
   font-size: 45px;
@@ -241,7 +414,12 @@ body .s3 .div5 .div6 h1 {
   line-height: 130%; /* 58.5px */
   letter-spacing: -0.45px;
 }
-body .s3 .div5 .div6 p {
+@media (max-width: 700px) {
+  body .s3 .container .div6 h1 {
+    font-size: 30px;
+  }
+}
+body .s3 .container .div6 p {
   color: #555;
   font-family: "BPG Nino Mtavruli", sans-serif;
   font-size: 18px;
@@ -249,7 +427,22 @@ body .s3 .div5 .div6 p {
   font-weight: 400;
   line-height: 165%; /* 29.7px */
 }
-body .s4 .div8 {
+body .s3 .container img {
+  padding: 0 10px;
+}
+@media (max-width: 850px) {
+  body .s3 .container img {
+    width: 90%;
+    height: 90%;
+  }
+}
+@media (max-width: 700px) {
+  body .s3 .container img {
+    width: 80%;
+    height: 80%;
+  }
+}
+body .s4 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -257,17 +450,19 @@ body .s4 .div8 {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 20px;
 }
-body .s4 .div8 .div9 {
+body .s4 .container .div9 {
   margin-bottom: 100px;
   width: 384px;
 }
-body .s4 .div8 .div9 img {
+body .s4 .container .div9 img {
   margin-bottom: 10px;
   width: 384px;
   height: 216px;
+  padding: 0 10px;
 }
-body .s4 .div8 .div9 h3 {
+body .s4 .container .div9 h3 {
   margin-left: 80px;
   margin-bottom: 15px;
   font-size: 24px;
@@ -275,7 +470,12 @@ body .s4 .div8 .div9 h3 {
   color: #50b1c9;
   font-weight: 700;
 }
-body .s4 .div8 .div9 p {
+@media (max-width: 700px) {
+  body .s4 .container .div9 h3 {
+    font-size: 20px;
+  }
+}
+body .s4 .container .div9 p {
   color: #50b1c9;
   text-align: center;
   font-family: "BPG Arial", sans-serif;
@@ -287,7 +487,7 @@ body .s4 .div8 .div9 p {
 body .s5 {
   margin-bottom: 150px;
 }
-body .s5 .div10 {
+body .s5 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,13 +497,27 @@ body .s5 .div10 {
       -ms-flex-align: start;
           align-items: start;
   width: 100%;
-  height: 700px;
   background-color: #EBF3F5;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 70px 0;
+  gap: 10px;
 }
-body .s5 .div10 .div11 {
+body .s5 .container .div11 {
+  padding: 0 10px;
   width: 600px;
 }
-body .s5 .div10 .div11 h1 {
+@media (max-width: 1410px) {
+  body .s5 .container .div11 {
+    width: 800px;
+  }
+}
+@media (max-width: 700px) {
+  body .s5 .container .div11 {
+    width: 70%;
+  }
+}
+body .s5 .container .div11 h1 {
   margin-bottom: 30px;
   color: #141414;
   font-family: "Playfair Display", serif;
@@ -313,7 +527,17 @@ body .s5 .div10 .div11 h1 {
   line-height: 115%; /* 80.5px */
   letter-spacing: -0.7px;
 }
-body .s5 .div10 .div11 p {
+@media (max-width: 700px) {
+  body .s5 .container .div11 h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 440px) {
+  body .s5 .container .div11 h1 {
+    font-size: 30px;
+  }
+}
+body .s5 .container .div11 p {
   color: #141414;
   font-family: "BPG Nino Mtavruli", sans-serif;
   font-size: 25px;
@@ -322,30 +546,80 @@ body .s5 .div10 .div11 p {
   line-height: 165%; /* 80.5px */
   letter-spacing: -0.7px;
 }
-body .s5 .div10 .div12 img {
+@media (max-width: 700px) {
+  body .s5 .container .div11 p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 440px) {
+  body .s5 .container .div11 p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 630px) {
+  body .s5 .container .div12 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+body .s5 .container .div12 img {
   width: 800px;
   margin-top: 20px;
   border-radius: 1%;
+  padding: 0 10px;
+}
+@media (max-width: 850px) {
+  body .s5 .container .div12 img {
+    width: 90%;
+    height: 90%;
+  }
+}
+@media (max-width: 700px) {
+  body .s5 .container .div12 img {
+    width: 70%;
+    height: 70%;
+  }
 }
 body .s6 {
   background-color: #EBF3F5;
 }
-body .s6 .div18 {
+body .s6 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding: 50px 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
 }
-body .s6 .div18 img {
+body .s6 .container img {
   width: 636px;
   height: 382px;
   border-radius: 1%;
 }
-body .s6 .div18 .div19 {
+@media (max-width: 700px) {
+  body .s6 .container img {
+    width: 80%;
+    height: 80%;
+  }
+}
+body .s6 .container .div19 {
   width: 500px;
 }
-body .s6 .div18 .div19 p {
+@media (max-width: 1155px) {
+  body .s6 .container .div19 {
+    width: 650px;
+  }
+}
+@media (max-width: 700px) {
+  body .s6 .container .div19 {
+    width: 80%;
+  }
+}
+body .s6 .container .div19 p {
   color: #555;
   font-family: "BPG Nino Mtavruli", sans-serif;
   font-size: 18px;
@@ -353,7 +627,7 @@ body .s6 .div18 .div19 p {
   font-weight: 400;
   line-height: 165%; /* 29.7px */
 }
-body .s6 .div18 .div19 h1 {
+body .s6 .container .div19 h1 {
   margin-bottom: 20px;
   margin-top: 20px;
   color: #141414;
@@ -365,30 +639,36 @@ body .s6 .div18 .div19 h1 {
 }
 body .s7 {
   background-color: #EBF3F5;
-  margin-bottom: 50px;
 }
-body .s7 .div16 {
-  width: 100%;
-  height: 600px;
+body .s7 .container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 200px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  gap: 20px;
 }
-body .s7 .div16 img {
-  margin-left: 10px;
-  width: 670px;
-  height: 398px;
+@media (max-width: 1340px) {
+  body .s7 .container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
-body .s7 .div16 .div17 {
+body .s7 .container img {
+  padding: 0 20px;
+  width: 620px;
+  height: 349px;
+}
+body .s7 .container .div17 {
+  padding: 0 20px;
   width: 700px;
 }
-body .s7 .div16 .div17 h1 {
+body .s7 .container .div17 h1 {
   color: #5C8692;
   font-family: "Edu SA Beginner", cursive;
   font-size: 26px;
@@ -396,7 +676,12 @@ body .s7 .div16 .div17 h1 {
   font-weight: 700;
   line-height: 120%; /* 31.2px */
 }
-body .s7 .div16 .div17 p {
+@media (max-width: 1000px) {
+  body .s7 .container .div17 h1 {
+    font-size: 20px;
+  }
+}
+body .s7 .container .div17 p {
   font-family: "ALK Rounded Nusx Med", sans-serif;
   color: #5C8692;
   font-size: 18px;
@@ -404,27 +689,19 @@ body .s7 .div16 .div17 p {
   font-weight: 400;
   line-height: 165%; /* 29.7px */
 }
-body .s7 a {
-  margin-left: 20px;
-  width: 199.5px;
-  background-color: white;
-  height: 50px;
-  color: #141414;
-  border: 2px solid #5C8692;
-  text-align: center;
-  font-family: Manrope;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 125%; /* 17.5px */
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
+@media (max-width: 1000px) {
+  body .s7 .container .div17 p {
+    font-size: 15px;
+  }
 }
 body footer {
   margin-top: 150px;
   width: 100%;
-  height: 400px;
+  padding: 30px 0;
   background-color: #EBF3F5;
+}
+body footer .div13 {
+  max-width: 1400px;
 }
 body footer .div13 .div14 {
   display: -webkit-box;
@@ -451,15 +728,10 @@ body footer .div13 .div14 h1 {
   letter-spacing: 0.8px;
   margin-top: 50px;
 }
-body footer .div13 .div14 i {
-  margin-top: 75px;
-  margin-right: 30px;
-}
 body footer .div15 {
   margin-left: 100px;
 }
 body footer .div15 h3 {
-  margin-bottom: 50px;
   color: black;
   font-family: "BPG Nino Mtavruli", sans-serif;
   font-size: 30px;
@@ -467,15 +739,18 @@ body footer .div15 h3 {
   font-weight: 700;
   line-height: 100%; /* 30.8px */
 }
-body footer .div15 li {
-  margin-bottom: 20px;
-}
-body footer .div15 li a {
-  margin-right: 32px;
+body footer .div15 a {
   color: #555;
   font-family: "BPG Nino Mtavruli", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 22.5px */
+  line-height: 175%; /* 22.5px */
+}
+body footer .div20 {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+body footer .div20 i {
+  margin-right: 10px;
 }/*# sourceMappingURL=global.css.map */
