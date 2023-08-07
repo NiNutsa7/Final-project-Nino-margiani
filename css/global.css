@@ -108,6 +108,13 @@ body header .container .div1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 20px;
+}
+@media (max-width: 400px) {
+  body header .container .div1 {
+    width: 90%;
+    height: 90%;
+  }
 }
 @media (max-width: 696px) {
   body header .container .div1 {
@@ -117,11 +124,11 @@ body header .container .div1 {
   }
 }
 body header .container .div1 img {
-  vertical-align: bottom;
   margin-right: 12px;
-  vertical-align: top;
-  height: 40px;
+  vertical-align: middle;
+  height: 33px;
   width: 33px;
+  margin-left: 10px;
 }
 @media (max-width: 973px) {
   body header .container .div1 img {
@@ -130,23 +137,38 @@ body header .container .div1 img {
 }
 body header .container .div1 h1 {
   margin-right: 46px;
-  vertical-align: bottom;
+  vertical-align: middle;
   color: #555;
-  font-family: "Playfair Display", serif;
+  font-family: "BPG Nino Mtavruli", sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: 125%; /* 35px */
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 @media (max-width: 630px) {
   body header .container .div1 h1 {
     font-size: 25px;
   }
 }
+@media (max-width: 400px) {
+  body header .container .div1 h1 {
+    font-size: 18px;
+  }
+}
+body header .container .div1 h1:hover {
+  color: #50b1c9;
+}
 body header .container ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+@media (max-width: 400px) {
+  body header .container ul {
+    display: block;
+  }
 }
 body header .container ul a {
   margin-right: 32px;
@@ -156,6 +178,8 @@ body header .container ul a {
   font-style: normal;
   font-weight: 400;
   line-height: 125%; /* 22.5px */
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 @media (max-width: 696px) {
   body header .container ul a {
@@ -176,6 +200,9 @@ body header .container ul a {
   body header .container ul a {
     font-size: 8px;
   }
+}
+body header .container ul a:hover {
+  color: #50b1c9;
 }
 body .s1 {
   margin-top: 120px;
@@ -239,6 +266,11 @@ body .s1 .container .div3 {
     width: 60%;
   }
 }
+@media (max-width: 500px) {
+  body .s1 .container .div3 {
+    width: 50%;
+  }
+}
 body .s1 .container .div3 h2 {
   color: #141414;
   font-family: "BPG Nino Mtavruli", sans-serif;
@@ -264,6 +296,14 @@ body .s1 .container .div3 h2 {
     font-size: 30px;
   }
 }
+@media (max-width: 500px) {
+  body .s1 .container .div3 h2 {
+    font-size: 20px;
+  }
+}
+body .s1 .container .div3 h2:hover {
+  color: #555;
+}
 body .s1 .container .div3 p {
   color: #555;
   font-family: "BPG Arial", sans-serif;
@@ -286,6 +326,11 @@ body .s1 .container .div3 p {
         -ms-flex-pack: center;
             justify-content: center;
     font-size: 10px;
+  }
+}
+@media (max-width: 500px) {
+  body .s1 .container .div3 p {
+    font-size: 7px;
   }
 }
 body .s2 {
@@ -319,6 +364,14 @@ body .s2 .container {
             justify-content: center;
   }
 }
+@media (max-width: 400px) {
+  body .s2 .container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 80%;
+  }
+}
 body .s2 .container .div4 {
   width: 400px;
 }
@@ -328,7 +381,13 @@ body .s2 .container .div4 .img4 {
   height: 225px;
   width: 400px;
 }
-body .s2 .container .div4 h3 {
+@media (max-width: 500px) {
+  body .s2 .container .div4 .img4 {
+    width: 90%;
+    height: 50%;
+  }
+}
+body .s2 .container h3 {
   margin-top: 20px;
   color: #141414;
   font-family: "Edu SA Beginner", cursive;
@@ -337,7 +396,12 @@ body .s2 .container .div4 h3 {
   font-weight: 700;
   line-height: 120%; /* 31.2px */
 }
-body .s2 .container .div4 p {
+@media (max-width: 500px) {
+  body .s2 .container h3 {
+    font-size: 20px;
+  }
+}
+body .s2 .container p {
   margin-bottom: 20px;
   color: #555;
   font-family: Manrope;
@@ -347,7 +411,12 @@ body .s2 .container .div4 p {
   line-height: 165%; /* 29.7px */
   letter-spacing: 0.36px;
 }
-body .s2 .container .div4 a {
+@media (max-width: 500px) {
+  body .s2 .container p {
+    font-size: 14px;
+  }
+}
+body .s2 .container a {
   width: 199.5px;
   background-color: #EBF3F5;
   height: 50px;
@@ -361,6 +430,16 @@ body .s2 .container .div4 a {
   line-height: 125%; /* 17.5px */
   letter-spacing: 1.4px;
   text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  body .s2 .container a {
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  body .s2 .container a {
+    font-size: 15px;
+  }
 }
 body .s3 {
   margin-bottom: 145px;
@@ -404,6 +483,11 @@ body .s3 .container .div6 {
     width: 70%;
   }
 }
+@media (max-width: 500px) {
+  body .s3 .container .div6 {
+    width: 60%;
+  }
+}
 body .s3 .container .div6 h1 {
   margin-bottom: 30px;
   color: #141414;
@@ -438,8 +522,14 @@ body .s3 .container img {
 }
 @media (max-width: 700px) {
   body .s3 .container img {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
+    margin-left: 100px;
+  }
+}
+@media (max-width: 400px) {
+  body .s3 .container img {
+    margin-left: 80px;
   }
 }
 body .s4 .container {
@@ -456,11 +546,23 @@ body .s4 .container .div9 {
   margin-bottom: 100px;
   width: 384px;
 }
+@media (max-width: 500px) {
+  body .s4 .container .div9 {
+    width: 60%;
+    height: 50%;
+  }
+}
 body .s4 .container .div9 img {
   margin-bottom: 10px;
   width: 384px;
   height: 216px;
   padding: 0 10px;
+}
+@media (max-width: 500px) {
+  body .s4 .container .div9 img {
+    width: 100%;
+    height: 50%;
+  }
 }
 body .s4 .container .div9 h3 {
   margin-left: 80px;
@@ -475,6 +577,16 @@ body .s4 .container .div9 h3 {
     font-size: 20px;
   }
 }
+@media (max-width: 500px) {
+  body .s4 .container .div9 h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) {
+  body .s4 .container .div9 h3 {
+    margin-left: 50px;
+  }
+}
 body .s4 .container .div9 p {
   color: #50b1c9;
   text-align: center;
@@ -483,6 +595,11 @@ body .s4 .container .div9 p {
   font-style: normal;
   font-weight: 400;
   line-height: 160%; /* 28.8px */
+}
+@media (max-width: 500px) {
+  body .s4 .container .div9 p {
+    font-size: 12px;
+  }
 }
 body .s5 {
   margin-bottom: 150px;
@@ -532,6 +649,11 @@ body .s5 .container .div11 h1 {
     font-size: 50px;
   }
 }
+@media (max-width: 500px) {
+  body .s5 .container .div11 h1 {
+    font-size: 40px;
+  }
+}
 @media (max-width: 440px) {
   body .s5 .container .div11 h1 {
     font-size: 30px;
@@ -549,6 +671,11 @@ body .s5 .container .div11 p {
 @media (max-width: 700px) {
   body .s5 .container .div11 p {
     font-size: 20px;
+  }
+}
+@media (max-width: 500px) {
+  body .s5 .container .div11 p {
+    font-size: 17px;
   }
 }
 @media (max-width: 440px) {
@@ -579,6 +706,14 @@ body .s5 .container .div12 img {
   body .s5 .container .div12 img {
     width: 70%;
     height: 70%;
+    margin-left: 100px;
+  }
+}
+@media (max-width: 500px) {
+  body .s5 .container .div12 img {
+    width: 65%;
+    height: 65%;
+    margin-left: 70px;
   }
 }
 body .s6 {
@@ -602,8 +737,8 @@ body .s6 .container img {
 }
 @media (max-width: 700px) {
   body .s6 .container img {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
   }
 }
 body .s6 .container .div19 {
@@ -616,7 +751,7 @@ body .s6 .container .div19 {
 }
 @media (max-width: 700px) {
   body .s6 .container .div19 {
-    width: 80%;
+    width: 70%;
   }
 }
 body .s6 .container .div19 p {
@@ -627,6 +762,11 @@ body .s6 .container .div19 p {
   font-weight: 400;
   line-height: 165%; /* 29.7px */
 }
+@media (max-width: 400px) {
+  body .s6 .container .div19 p {
+    font-size: 15px;
+  }
+}
 body .s6 .container .div19 h1 {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -636,6 +776,11 @@ body .s6 .container .div19 h1 {
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 31.2px */
+}
+@media (max-width: 400px) {
+  body .s6 .container .div19 h1 {
+    font-size: 20px;
+  }
 }
 body .s7 {
   background-color: #EBF3F5;
@@ -700,10 +845,10 @@ body footer {
   padding: 30px 0;
   background-color: #EBF3F5;
 }
-body footer .div13 {
+body footer .container {
   max-width: 1400px;
 }
-body footer .div13 .div14 {
+body footer .container .div14 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -713,11 +858,19 @@ body footer .div13 .div14 {
   margin-bottom: 50px;
   margin-left: 100px;
 }
-body footer .div13 .div14 svg {
-  margin-right: 50px;
-  margin-top: 60px;
+body footer .container .div14 img {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 50px;
+  width: 33px;
+  height: 40px;
 }
-body footer .div13 .div14 h1 {
+@media (max-width: 400px) {
+  body footer .container .div14 img {
+    margin-left: 0;
+  }
+}
+body footer .container .div14 h1 {
   margin-right: 700px;
   color: black;
   font-family: "Playfair Display", serif;
@@ -727,6 +880,16 @@ body footer .div13 .div14 h1 {
   line-height: 125%; /* 50px */
   letter-spacing: 0.8px;
   margin-top: 50px;
+}
+@media (max-width: 1095px) {
+  body footer .container .div14 h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 400px) {
+  body footer .container .div14 h1 {
+    font-size: 20px;
+  }
 }
 body footer .div15 {
   margin-left: 100px;
@@ -739,6 +902,11 @@ body footer .div15 h3 {
   font-weight: 700;
   line-height: 100%; /* 30.8px */
 }
+@media (max-width: 400px) {
+  body footer .div15 h3 {
+    font-size: 20px;
+  }
+}
 body footer .div15 a {
   color: #555;
   font-family: "BPG Nino Mtavruli", sans-serif;
@@ -746,6 +914,16 @@ body footer .div15 a {
   font-style: normal;
   font-weight: 400;
   line-height: 175%; /* 22.5px */
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+@media (max-width: 400px) {
+  body footer .div15 a {
+    font-size: 17px;
+  }
+}
+body footer .div15 a:hover {
+  color: #50b1c9;
 }
 body footer .div20 {
   margin-left: 100px;
