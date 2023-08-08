@@ -429,6 +429,9 @@ body .s2 .container p {
     font-size: 14px;
   }
 }
+body .s2 .container p::first-letter {
+  font-size: 25px;
+}
 body .s2 .container a {
   display: -webkit-box;
   display: -ms-flexbox;

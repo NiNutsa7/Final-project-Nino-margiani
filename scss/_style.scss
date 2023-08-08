@@ -251,6 +251,9 @@ body {
                     font-size: 14px;
                 }
             }
+            p::first-letter {
+                font-size: 25px;
+            }
             a {
                 display: flex;
                 padding: 18px 43px 19px 43px;
