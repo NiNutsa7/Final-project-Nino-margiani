@@ -101,14 +101,15 @@ body header .container {
   }
 }
 body header .container .div1 {
-  vertical-align: bottom;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 @media (max-width: 400px) {
   body header .container .div1 {
@@ -125,7 +126,6 @@ body header .container .div1 {
 }
 body header .container .div1 img {
   margin-right: 12px;
-  vertical-align: middle;
   height: 33px;
   width: 33px;
   margin-left: 10px;
@@ -137,13 +137,12 @@ body header .container .div1 img {
 }
 body header .container .div1 h1 {
   margin-right: 46px;
-  vertical-align: middle;
+  padding-top: 8px;
   color: #555;
   font-family: "BPG Nino Mtavruli", sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
-  line-height: 125%; /* 35px */
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
@@ -205,7 +204,7 @@ body header .container ul a:hover {
   color: #50b1c9;
 }
 body .s1 {
-  margin-top: 120px;
+  margin-top: 96px;
   background-color: #EBF3F5;
   margin-bottom: 145px;
 }
@@ -825,7 +824,7 @@ body .s6 .container .div19 h1 {
   }
 }
 body .s7 {
-  background-color: #EBF3F5;
+  background-color: #ebf3f5;
 }
 body .s7 .container {
   -ms-flex-wrap: wrap;
